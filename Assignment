@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+
+int main ()
+
+{
+	int one,two,three;
+	cout<<"\n\n---------------------------------Help Anna Add Up-------------------------------\n\n";
+	cout<<"There were"; 
+	cin>>one;
+	cout<<"apples in the basket.\n";
+	cout<<"\n\n";
+	cout<<"There were"; 
+	cin>>two;
+	cout<<"oranges in there too.\n";
+	cout<<"\n\n";
+	cout<<"Lastly,there were also"; 
+	cin>>three;
+	cout<<"mangoes in the basket.\n";
+	cout<<"\n\n";
+	cout<<"\n\nIf Anna had 3 different types of fruits in her basket how many would it be in total?\n\n";
+	cout<< "Currently Calculating Anna's Total...\n\n";
+	cout<< "Anna's total count is = ";
+	cout<< one+two+three;
+	cout<< "\n===============================Thanks for helping Anna!=========================";
+	cout<<"\n\n";
+	system("PAUSE");
+	return 0;
+	
+	
+	
+}
