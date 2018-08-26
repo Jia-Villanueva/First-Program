@@ -1,0 +1,59 @@
+Maria Jia Austine V. Villanueva
+BSIE-5N
+
+//Store Program
+#include<iostream>
+using namespace std;
+ 
+int main ()
+ 
+{
+    //Introduction
+    cout<< "-----------------------Hello Welcome To Our Shop----------------------------\n";
+    //Spaces to provide a better visual
+    cout << "\n"; 
+    cout<< "--------------Here is our products and their corresponding prices:----------\n";
+    cout<< "\n";
+    
+    int Product;
+    //Float was used because the values are in decimal 
+    float Soap,Shampoo,Lotion;
+    
+    //Inputting the values (sample products)
+    Soap=12.5;
+    Shampoo=13.2;
+    Lotion= 14.1;
+    
+    //Printing prices by calling out the same name above
+    cout<<"Soap Price = ";
+    cout<< Soap;
+    cout << "\n\n";
+    cout<<"Shampoo Price = ";
+    cout<< Shampoo;
+    cout << "\n\n";
+    cout<<"Lotion Price = ";
+    cout<< Lotion;
+    cout << "\n\n";
+    
+    //Customer for example bought the soap
+    cout<<"Availed : Soap";
+    cout << "\n\n";
+    
+    //Soap is to be the Input Product
+    cout<<"Input Product:";
+    cout << "\n\n";
+    cin>> Product;
+    cout<<"\n";
+    
+    //If the it detects that the value is greater than or equal to the value of Soap it will print
+    if (Product=12.5)
+    cout<<"Soap was added to your cart! Thank You for shopping";
+    
+    //If not then it will display the following
+    else
+    cout<<"Thank You For Shopping";
+    
+    //end of program
+    return 0; 
+    
+}
